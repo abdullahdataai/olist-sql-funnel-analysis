@@ -44,6 +44,15 @@ This project uses SQL queries to explore e-commerce order data and investigate h
 - Add a verified results summary with query references.
 - Replace auto-generated screenshot filenames with descriptive names.
 
+
+## Screenshots from the funnel analysis
+
+![Olist SQL screenshot 1](Screenshot%202026-05-30%20155629%20-%20Copy.png)
+
+![Olist SQL screenshot 2](Screenshot%202026-05-30%20155658%20-%20Copy.png)
+
+![Olist SQL screenshot 3](Screenshot%202026-05-30%20155722%20-%20Copy.png)
+
 ## Author
 
 [abdullahdataai](https://github.com/abdullahdataai)
