@@ -1,58 +1,53 @@
-# Olist SQL Funnel Analysis Project
+# Olist E-Commerce | SQL Funnel Analysis
 
-## 📊 Project Overview
-This project analyzes e-commerce data from the Olist dataset using SQL Server.  
-The goal is to build a funnel analysis and understand customer behavior from order creation to delivery.
+> A SQL Server portfolio project exploring the customer order journey, from order creation to delivery, using the Olist Brazilian e-commerce dataset.
 
----
+**Focus:** SQL · E-commerce Analytics · Customer Journey · Funnel Analysis
 
-## 🧠 Business Problem
-How do customers move through the order funnel and what is the conversion rate from order creation to delivery?
+## Project overview
 
----
+This project uses SQL queries to explore e-commerce order data and investigate how orders progress through the fulfillment funnel. It covers delivery and cancellation metrics, table relationships, and business-oriented questions.
 
-## 🛠 Tools Used
-- SQL Server Management Studio (SSMS)
-- SQL Server
-- Git & GitHub
+## Questions explored
 
----
+- How many orders appear at each stage of the order journey?
+- What proportion of orders are delivered or canceled?
+- How can customer, order, payment, and item tables be combined to analyze the funnel?
 
-## 📂 Dataset
-Olist Brazilian E-commerce Dataset from Kaggle
+## Dataset and tools
 
-Tables used:
-- customers
-- orders
-- payments
-- order_items
+- **Dataset:** Olist Brazilian E-Commerce Dataset (Kaggle)
+- **Tables referenced:** customers, orders, payments, order_items
+- **Tools:** Microsoft SQL Server, SQL Server Management Studio (SSMS), GitHub
+- **Techniques:** SQL joins, aggregations, `CASE WHEN`, exploratory queries, funnel calculations
 
----
+## Repository contents
 
-## 🔗 Analysis Steps
+- `SQLQuery*.sql` — SQL scripts for the analysis
+- `Screenshot*.png` — screenshots from the analysis workflow
+- `LICENSE` — repository license
 
-1. Data Exploration
-2. Table Joins
-3. Funnel Analysis
-4. Conversion Rate Calculation
+> **Reproducibility note:** This repository does not currently include a complete dataset setup guide. You will need access to the Olist dataset and a compatible SQL Server environment to adapt and run the queries. Query outputs and screenshots should be verified against the dataset version used.
 
----
+## Analysis workflow
 
-## 📈 Key Insights
-- Total orders analyzed
-- Delivery rate calculated
-- Cancellation rate identified
+1. Explore the available tables and fields.
+2. Join order-related data.
+3. Analyze order stages and delivery outcomes.
+4. Calculate funnel and cancellation metrics.
+5. Review results and screenshots.
 
----
+## Further improvements planned
 
-## 🚀 Skills Demonstrated
-- SQL Joins
-- Aggregations
-- CASE WHEN logic
-- Data analysis
-- Funnel analysis
+- Consolidate SQL scripts into clearly named, numbered stages.
+- Document database import and setup steps.
+- Add a verified results summary with query references.
+- Replace auto-generated screenshot filenames with descriptive names.
+
+## Author
+
+[abdullahdataai](https://github.com/abdullahdataai)
 
 ---
 
-## 👤 Author
-Your Name
+*Portfolio research project. No business impact or performance claims are made without verified results.*
